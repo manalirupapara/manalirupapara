@@ -1,0 +1,39 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+   int a;
+   clrscr();
+   printf("marks");
+   scanf("%d",&a);
+   if(a<100 && a>90)
+   {
+     printf("you got to A1 grade");
+   }
+
+   else if(a<90 && a>80)
+   {
+     printf("you got to A2 grade");
+   }
+   else if(a<80 && a>70)
+   {
+     printf("you got to B1 grade");
+   }
+   else if(a<70 && a>60)
+   {
+     printf("you got to B2 grade");
+   }
+   else if(a<60 && a>50)
+   {
+     printf("you got to C1 grade");
+   }
+   else if(a<50 && a>33)
+   {
+     printf("you got to C2 grade");
+   }
+   else
+   {
+    printf("you got to faile");
+   }
+   getch();
+}

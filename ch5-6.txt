@@ -1,0 +1,51 @@
+#include<stdio.h>
+#include<conio.h>
+#define P printf
+void main()
+{
+	int a,b,c,d,e;
+	clrscr();
+	P("enter a,b,c,d,e:");
+	scanf("%d%d%d%d%d",&a,&b,&c,&d,&e);
+	(a>b>
+		?(a>c)
+			?(a>d)
+				?(a>e)
+					?P("a is big")
+					:P("e is big")
+
+				:(d<e)
+					?P("d is big")
+					:P("e is big")
+
+			:(c>d)
+				?(c>e)
+					?P("c is big")
+					:P("e is big")
+				:(d<e)
+					?P("d is big")
+					:P("e is big")
+
+
+
+		:(b>c)
+			?(b>d)
+				?(b>e)
+					?P("b is big")
+					:P("e is big")
+				:(d>e)
+					?P("d is big")
+					:P("e is big")
+
+			:(c>d)
+				?(c>e)
+					?("c is big")
+					:("e is big")
+
+				:(d>e)
+					?("d is big")
+					:("e is big");
+
+
+	getch();
+}
