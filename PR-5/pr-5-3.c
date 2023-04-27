@@ -1,5 +1,5 @@
 #include<stdio.h>
- 
+
  void main ()
  {
  	int r,c;
@@ -8,7 +8,7 @@
  	 	printf("enter number of column\t :");
  	 	scanf("%d",&c);
  	 	
- 	int a[r][c],b[r][c],s[r][c],i,j,sum=0;
+ 	int a[r][c],b[r][c],i,j,sum=0;
  	
  	for(i=0; i<r; i++)
  	{
@@ -38,7 +38,7 @@
 			
 			printf("%d ",b[i][j]);
 			
-			s[r][c] = + a[i][j] + b[i][j];
+			sum = sum + a[i][j] + b[i][j];
 			
 		
 			
@@ -46,11 +46,7 @@
 		printf("\n");
    }
 		
-	for(i=0;i<r;i++){
-		for (j=0;j<c;j++){
-			printf("%d",s[r][c]);
-		}printf("\n");
-	}
+	printf("%d",sum);
 			
    
    	
