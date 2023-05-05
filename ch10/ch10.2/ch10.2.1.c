@@ -9,6 +9,7 @@ void clacy()
 	do
 	{
 	
+		
 		printf("\nenter....\n");
 		printf("1)addition\n");
 		printf("2)subraction\n");
@@ -88,9 +89,12 @@ void clacy()
 	printf("\n-----------------------------");
 	
 	return(a,b);
+
+	
 	
 }
 void main()
 {
 	clacy();
+	
 }
