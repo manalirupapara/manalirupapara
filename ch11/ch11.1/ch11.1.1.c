@@ -1,3 +1,28 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*1.WAP to find square of each element using Pointer.*/
 
 #include<stdio.h>
